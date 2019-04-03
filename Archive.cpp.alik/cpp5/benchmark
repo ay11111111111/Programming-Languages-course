@@ -1,0 +1,60 @@
+Flags = -Wall -std=c++14 -O3
+vectortest::randomstrings(20000, 1500)
+vector:
+move sorting took 7.45983 seconds
+assign sorting took 6.91672 seconds
+std sorting took 0.00139015 seconds
+list:
+move sorting took 4.88556 seconds
+assign sorting took 4.84379 seconds
+
+Flags = -Wall -std=c++14
+vectortest::randomstrings(20000, 1500)
+vector:
+move sorting took 29.1642 seconds
+assign sorting took 27.0486 seconds
+std sorting took 0.00954377 seconds
+list:
+move sorting took 20.2778 seconds
+assign sorting took 22.9738 seconds
+
+
+Flags = -Wall -std=c++14 -O3 -flto
+vectortest::randomstrings(20000, 1500)
+vector:
+move sorting took 7.45477 seconds
+assign sorting took 6.65842 seconds
+std sorting took 0.00199803 seconds
+list:
+move sorting took 4.97609 seconds
+assign sorting took 4.76101 seconds
+
+Flags = -Wall -std=c++14 -O3 -flto
+vectortest::randomstrings(10000, 1500)
+vector:
+move sorting took 1.61237 seconds
+assign sorting took 1.59927 seconds
+std sorting took 0.000736569 seconds
+list:
+move sorting took 1.20029 seconds
+assign sorting took 1.22956 seconds
+
+Flags = -Wall -std=c++14 -O3 -flto
+vectortest::randomstrings(5000, 1500)
+vector:
+move sorting took 0.245592 seconds
+assign sorting took 0.22648 seconds
+std sorting took 0.00032763 seconds
+list:
+move sorting took 0.219778 seconds
+assign sorting took 0.233504 seconds
+
+Flags = -Wall -std=c++14 -O3 -flto
+vectortest::randomstrings(2000, 1500)
+vector:
+move sorting took 0.0227844 seconds
+assign sorting took 0.0225918 seconds
+std sorting took 0.000226177 seconds
+list:
+move sorting took 0.0220092 seconds
+assign sorting took 0.0193229 seconds
